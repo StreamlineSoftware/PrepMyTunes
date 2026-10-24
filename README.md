@@ -209,7 +209,8 @@ A floating popout window built for the DJ booth:
 
 Find and clean up the duplicate copies that accumulate across years of pool subscriptions and re-rips.
 
-- **Smart grouping** by normalized title + artist - ignores brackets, mix labels, and edition tags so "Levels (Original Mix)" and "Levels - Radio Edit" land together
+- **Smart grouping** by normalized title + artist - ignores brackets and edition tags so "Levels" and "Levels (Original Mix)" land together
+- **Different mixes are not duplicates** - the Extended Mix, the Radio Edit, the Clean and the Dirty of a song are read from the file name and title and kept in their own groups, so Keep Best never archives the radio edit you play on purpose. Turn Mix types apart off to group them, and the Mix Type step in Best Priority keeps the mix you prefer (Extended, then Original Mix, then Radio Edit, in an order you set)
 - **Audio matching** compares the actual audio so renamed files still group correctly
 - **Keep-best heuristic** picks the best copy in each group based on bitrate, duration, tag completeness, file format, and folder priority - all configurable
 - **Misleading bitrate flag (PRO)** - track analysis also listens for files that claim a high bitrate but were re-encoded from a lower quality source (a common trait of video-site rips), and marks their bitrate with a warning badge wherever a bitrate is shown. Keep-best ranks a flagged copy by the quality it really has, so a fake 320 no longer beats a genuine 256, and the "Real quality below" archive rule catches the fakes that a plain bitrate rule lets through
