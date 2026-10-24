@@ -95,7 +95,7 @@ Stop living with messy tags. Fix My Tunes runs 20 automated operations on your l
 | 10 | Standardize Record Pool Tags | Detects and standardizes record pool identifiers |
 | 11 | Artist Name Processing | Removes featured artists from the Artist field, optionally moves the info to Title |
 | 12 | Normalize "The" Prefix | Moves "The" from the start of an artist name to the end |
-| 13 | BPM Removal | Strips BPM values accidentally embedded in Title tags, plus a key/BPM/energy stamp left at the end of the title |
+| 13 | BPM Removal | Strips BPM values accidentally embedded in Title tags, plus key/BPM/energy stamps left at the end of the title, old ones included |
 | 14 | Extract Tags from Filename | Auto-extracts Artist and Title from the filename pattern |
 | 15 | Remove Non-Hashtag Text | Keeps only `#hashtags`, removes all other comment text |
 | 16 | Replace Underscores with Spaces | Converts underscores to spaces across all text tags |
@@ -268,6 +268,7 @@ Build a new track out of your songs the way a video editor does, and export the 
 - **Drag songs onto rows** - browse by folder, genre, tag or playlist beside the timeline and drag a song in; drop below the last row to open a new one. Rows play together, so an overlap is a mix
 - **Send a song from any tab** - right-click a song (or a selection) in Find, Tag, Mix, Dedupe, Cue or Play My Tunes and pick Send to Cut My Tunes; it lands on the end of the first row
 - **Split, trim, move, repeat** - split at the playhead, drag a clip's edges, move clips between rows, Repeat, Copy and Paste, close the gaps, with full undo and redo
+- **Fade a clip in and out** - drag the knob at a clip's top corner to fade that edge in or out, snapped to the beat. A fade is drawn as a ramp over the waveform while a trimmed edge stays a hard edge, so a quieter edge never looks like a shorter one, and the export writes exactly what you hear
 - **Everything lands on the beat** - each song's own beat grid is drawn on its clip and a dropped clip puts its first beat on the project grid. The first song you drop on an empty timeline starts at 0:00 on bar 1 and sets the Project BPM, 1/2 and x2 halve or double it, Match clip takes it from a clip, the ruler numbers the bars, and Snap lands on a beat, a bar or an 8-bar phrase
 - **See where you are in each song** - a strip along every clip shows its song's sections (Intro, Vocal, Beat only, Build, Drop, Break, Breakdown, Outro), the same ones Cue My Tunes finds. It follows the clip through trims, moves, splits and stretches, and a click puts the playhead on a section's start
 - **One tempo for the whole project** - every song plays at the Project BPM, stretched in its own key so the pitch stays put: songs you add after the first are stretched to it, and typing a new tempo stretches them all, one song on its own included, with every bar staying on its bar line. Each clip shows how far it is stretched (amber over 8%, red over 16%), and the export is mixed from the same stretched audio you hear
