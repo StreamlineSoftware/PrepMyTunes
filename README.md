@@ -4,7 +4,7 @@
 
 Prep My Tunes helps DJs and music enthusiasts find, organize, clean, tag, cue and harmonically mix their local MP3 and FLAC libraries - all offline, all on your machine. No uploads. No cloud. No subscriptions required to get started.
 
-Available for **Windows** and **macOS** (Intel + Apple Silicon universal). **Linux** is coming soon.
+Available for **Windows**, **macOS** (Intel + Apple Silicon universal), and **Linux**.
 
 ---
 
@@ -410,7 +410,7 @@ PRO is available as a monthly or yearly subscription (both start with a 7-day fr
 |----------|---------|
 | Windows | Windows 10 64-bit or later |
 | macOS | macOS 11 or later (Intel & Apple Silicon) |
-| Linux | Coming soon |
+| Linux | AppImage or Debian package |
 
 ---
 
@@ -420,7 +420,7 @@ Download the latest installer from the [Releases](../../releases) page:
 
 - **Windows**: `PrepMyTunes-Setup.exe`
 - **macOS**: `PrepMyTunes-universal.dmg`
-- **Linux**: coming soon
+- **Linux**: `PrepMyTunes.AppImage` or `PrepMyTunes.deb`
 
 The app checks for updates automatically and notifies you when a new version is available.
 
