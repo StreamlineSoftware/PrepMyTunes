@@ -194,7 +194,7 @@ Pick a **seed song** and instantly see compatible tracks from your library, labe
 
 - **BPM-based search** - find songs within a BPM range of your seed song
 - **Every match counted** - each match type button shows how many songs it would give with your other filters on, and the Play My Tunes panel of folders, genres and playlists on the left shows how many of each one's songs match the seed. Click one to see only its matches; every count updates as the seed changes, and the ones with no matches are left out (a setting brings them back)
-- **Energy at a glance** - a small meter under each energy level, colored from red at 1 to green at 10, and the same meter next to the number in the Find, Tag, Dedupe and Play My Tunes lists
+- **Energy at a glance** - a small meter under each energy level, colored from red at 1 to green at 10, and the same meter, drawn the same way, in the Find, Tag, Dedupe and Play My Tunes lists
 - **A compact layout** - the seed song, SmartMix Live and your playlist share one top row, so about 16 songs show at once on a 1900-pixel-wide screen
 - **Deep filtering** - stack filters on genre, energy, BPM, rating, tags, favorites and more; each filter button says what it is set to, and tag filters show your tag groups side by side with an Any / All switch. Save any combination as a named preset with an optional keyboard shortcut, and pick presets from one menu with your groups as columns
 - **Open a playlist in Play My Tunes** - from the list of playlists a song is on, to look through it and play it without searching again
