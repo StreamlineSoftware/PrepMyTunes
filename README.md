@@ -107,7 +107,7 @@ Stop living with messy tags. Fix My Tunes runs 20 automated operations on your l
 | 5 | Standardize Parentheses/Brackets | Converts `[]` and `{}` to your preferred bracket style, puts a space between groups that touch (`)(` becomes `) (`) and between a word and an opening bracket (`Title(Remix)` becomes `Title (Remix)`), and brackets remix types left bare at the end of the title ("My Song Quick Hit" becomes "My Song (Quick Hit)") |
 | 6 | Standardize Featuring Artists | Normalizes `feat.` / `ft.` / `featuring` to one format |
 | 7 | Remove Custom Text | Remove any text you specify from all tags |
-| 8 | Smart Number Handling | Strips leading track numbers from Title and Artist fields, with a per-field ignore list so names like "50 Cent" survive |
+| 8 | Smart Number Handling | Strips leading track numbers from Title and Artist fields, with a per-field ignore list so names like "50 Cent" survive. 265 well-known names that really start with a number ("7 Rings", "99 Problems", "19-2000") are left alone out of the box |
 | 9 | Smart Title Case | DJ-optimized casing that preserves important words |
 | 10 | Standardize Record Pool Tags | Detects and standardizes record pool identifiers |
 | 11 | Artist Name Processing | Removes featured artists from the Artist field, optionally moves the info to Title |
