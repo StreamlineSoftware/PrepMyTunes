@@ -109,7 +109,7 @@ Stop living with messy tags. Fix My Tunes runs 20 automated operations on your l
 | 7 | Remove Custom Text | Remove any text you specify from all tags |
 | 8 | Smart Number Handling | Strips leading track numbers from Title and Artist fields, with a per-field ignore list so names like "50 Cent" survive. 265 well-known names that really start with a number ("7 Rings", "99 Problems", "19-2000") are left alone out of the box |
 | 9 | Smart Title Case | DJ-optimized casing that preserves important words |
-| 10 | Standardize Record Pool Tags | Detects and standardizes record pool identifiers |
+| 10 | Standardize Record Pool Tags | Writes every remix type one way in the Title: short tags like QH and SE are spelled out, and 523 pool spellings of 54 remix types (Re-Drum, Acap-In, Orig. Mix, Cln...) become one standard spelling. Only words in brackets that really are a remix type are touched, never a song name, artist or label. Pick your own spelling per type (Quick Hit or QH), turn a type or a spelling off, or fold other wordings in, in Settings > Fix My Tunes |
 | 11 | Artist Name Processing | Removes featured artists from the Artist field, optionally moves the info to Title |
 | 12 | Normalize "The" Prefix | Moves "The" from the start of an artist name to the end |
 | 13 | BPM, Key & Energy Removal | Strips BPM values accidentally embedded in Title tags, plus key/BPM/energy stamps left at the end of the title, old ones included |
