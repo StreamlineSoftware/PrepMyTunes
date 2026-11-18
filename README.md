@@ -213,7 +213,7 @@ Pick a **seed song** and instantly see compatible tracks from your library, labe
 
 **Track analysis, in-house:** analyze your library to detect **BPM**, **musical key** (written in harmonic notation), and a **1-10 energy level** - no third-party analysis tools required. Values are written to the file tags, including "Energy 7" in the Grouping field where Serato, VirtualDJ, rekordbox, and Traktor display it, and energy level names (🛑Chill, 🟡Opener, 🔵Medium, 🔥High and 💥Intense, or your own) to Comments or Composer. Point at any Energy number to see its level name.
 
-One **Analyze Songs** button runs the lot: tick BPM and energy, key detection, or both, and each song is read and decoded a single time for everything you ticked rather than once per job. Your ticks are remembered, every job skips the songs that already have its data, and each row shows how many are still waiting. With writing to file tags switched on, a run also writes any BPM, energy or key an earlier run saved only to your library, so your tags catch up in the same pass.
+One **Analyze Songs** button runs the lot: tick BPM and energy, key detection, or both, and each song is read and decoded a single time for everything you ticked rather than once per job. Your ticks are remembered, every job skips the songs that already have its data, and each row shows how many are still waiting. With writing to file tags switched on, a run also writes any BPM, energy or key an earlier run saved only to your library, so your tags catch up in the same pass. A song whose tags could not be written (a file that moved, or one locked by a sync app) is listed by name in the run log, with the reason.
 
 ### SmartMix Live
 
